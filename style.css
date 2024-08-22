@@ -1,0 +1,64 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.card {
+    /* aesthetics */
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 850px;
+    height: 120px;
+    color: white;
+    background-color: black;
+    margin-bottom: 5px;
+
+    display: flex;
+    align-items: center;
+}
+
+.thumbnail {
+    /* border: 2px solid brown; */
+    height: 100%;
+    position: relative;
+}
+
+.thumbnail img {
+    height: 100%;
+    border-radius: 4px;
+    object-fit: contain;
+}
+
+.title {
+    /* border: 2px solid white; */
+    padding: 0;
+    font-weight: 500;
+}
+
+.details {
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about {
+    width: 100%;
+    color: gray;
+    font-size: 10px;
+
+    display: flex;
+    /* border: 2px solid grey; */
+    justify-content: space-evenly;
+
+}
+
+/* Adjust the position of duration */
+.duration {
+    background-color: black;
+    border-radius: 5px;
+    padding: 2px;
+    color: white;
+    position: absolute;
+    bottom: 5px; /* Adjusted from top to bottom */
+    right: 5px; /* Adjusted from left to right */
+    opacity: 0.8;
+}
